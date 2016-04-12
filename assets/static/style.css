@@ -15,18 +15,6 @@ a:hover {
     color: #33bbdf;
 }
 
-div.page {
-    width: 100%;
-    height: 100%;
-}
-
-div.page div.container {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
-}
-
 header, footer {
     width: 100%;
     margin: 0 auto;
@@ -37,17 +25,10 @@ header, footer {
 
 header {
     height: 150px;
-}
-
-footer {
-    height: 50px;
     position: fixed;
-    bottom: 0px;
-    margin: 0 auto;
-    padding: 10px 15px;
 }
 
-div.container {
+header div.container {
     width: 765px;
     position: relative;
     top: 0;
@@ -145,7 +126,46 @@ header div.container nav ul li a {
 }
 
 div.page {
-    background: #f1fbfe;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 70px 0px;
+    background: #f9f9f9;
+}
+
+div.page div.container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 190px;
+    margin: 0px 0px 70px 0px;
+    padding: 30px 0px;
+}
+
+div.page div.container div.form {
+    width: 800px;
+    height: 100%;
+    margin: 0px auto 70px auto;
+}
+
+div.page div.container div.form h2 {
+    color: #444;
+    font: normal 200%/1.625 Flux-Regular,SourceSansProRegular,Arial,sans-serif;
+}
+
+iframe.form {
+    width: 765px;
+    height: 55%;
+    border: 0px;
+    margin: 0px auto 70px auto;
+    background: #f9f9f9;
+}
+
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    margin: 0 auto;
+    padding: 10px 15px;
 }
 
 footer div.container p {
