@@ -66,7 +66,7 @@ header div.container nav {
     width: 600px;
     height: 50px;
     position: relative;
-    top: 5px;
+    top: -5px;
     left: 0;
     bottom: 0;
     right: 0;
