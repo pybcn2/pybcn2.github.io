@@ -1,4 +1,4 @@
-title: Welcome to PyBCN!
+title: Python Barcelona Meetup
 ---
 body:
 
@@ -6,3 +6,5 @@ In this page you'll find everything about the PyBCN, the Barcelona Pyhon Meetup,
 Right now, our community has two main activities:
 - Meetups
 - Dojos
+---
+_template: homepage.html
